@@ -17,11 +17,11 @@
 
                     <span class="rounded-full bg-[#33343BCC] px-2.5 py-1 text-xs text-[#CBC3D7]">
                             12 мин чтения
-                        </span>
+                    </span>
 
                     <span class="rounded-full bg-[#CA81004D]/30 px-2.5 py-1 text-xs font-semibold text-[#FFB95F]">
                             Авторский лонгрид
-                        </span>
+                    </span>
 
                 </div>
                 <h1
