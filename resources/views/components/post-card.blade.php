@@ -15,12 +15,8 @@
     <div class="flex min-w-0 flex-col justify-between">
         <div class="flex flex-col gap-4">
             <div class="flex items-center gap-2">
-                <p class="rounded bg-[#4CD7F626]/25 px-3 py-1 text-xs font-semibold text-[#4CD7F6]">
-                    PC
-                </p>
-                <p class="rounded bg-[#4CD7F626]/25 px-3 py-1 text-xs font-semibold text-[#4CD7F6]">
-                    PC
-                </p>
+                <x-ui.platform-badge type="pc"/>
+                <x-ui.platform-badge type="pc"/>
 
                 <span class="text-xs aspect-square w-1.5 rounded-full bg-[#494454]"></span>
 

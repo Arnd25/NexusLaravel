@@ -1,5 +1,4 @@
     <x-container>
-
         <div class="relative min-h-[500px] overflow-hidden rounded-xl bg-cover bg-center"
              style="background-image: url('{{ asset('storage/Hero.png') }}')">
             <div class="absolute inset-0 bg-linear-to-r from-[#0C0E14] via-[#0b0d14]/80 to-transparent"></div>
