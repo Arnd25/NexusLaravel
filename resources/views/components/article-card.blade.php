@@ -1,4 +1,4 @@
-<div class="flex relative flex-col rounded-lg overflow-hidden bg-[#1E1F26]">
+<div class="flex relative flex-col rounded-lg overflow-hidden bg-dark-card">
     <p class="absolute top-3 left-3 text-[#4CD7F6] bg-[#0C0E14E5] rounded-lg px-2 py-1 font-bold">
         ЖЕЛЕЗО • ТЕСТ-ДРАЙВ
     </p>

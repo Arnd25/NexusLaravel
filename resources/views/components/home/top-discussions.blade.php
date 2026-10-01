@@ -1,4 +1,4 @@
-<div class="flex flex-col bg-[#1E1F26] rounded-xl p-6 gap-3" >
+<div class="flex flex-col bg-dark-card rounded-xl p-6 gap-3" >
     <div class="flex justify-between items-center">
         <div class="">
             <p class="font-serif font-bold text-xl flex gap-2 items-center">

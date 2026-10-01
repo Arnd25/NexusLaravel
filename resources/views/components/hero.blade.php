@@ -76,11 +76,11 @@
                             <img src="{{asset('storage/IconArrow.svg')}}" alt="">
                         </a>
 
-                        <button class="flex p-4 items-center justify-center rounded-md bg-[#1E1F26]">
+                        <button class="flex p-4 items-center justify-center rounded-md bg-dark-card">
                             <img src="{{asset('storage/IconSave.svg')}}" alt="">
                         </button>
 
-                        <button class="flex p-4 items-center justify-center rounded-md bg-[#1E1F26]">
+                        <button class="flex p-4 items-center justify-center rounded-md bg-dark-card">
                             <img src="{{asset('storage/IconRepost.svg')}}" alt="">
                         </button>
 

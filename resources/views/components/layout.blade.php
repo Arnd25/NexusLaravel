@@ -50,7 +50,7 @@
             <x-container class=" flex gap-3 items-center">
                 <x-ui.logo/>
                 <nav>
-                    <ul class="flex gap-2 items-center bg-[#1E1F26] p-1 rounded-lg">
+                    <ul class="flex gap-2 items-center bg-dark-card p-1 rounded-lg">
                         <li class="px-4 py-1 text-[#340080] bg-[#A078FF] rounded-lg">
                             <a class="font-semibold text-lg transition-colors duration-200 hover:text-white" href="/">Главная</a>
                         </li>
@@ -121,25 +121,25 @@
                         миры с технической точностью и художественной
                         страстью.</p>
                     <div class="flex items-center gap-2">
-                        <a href="#" class="aspect-square w-9 bg-[#1E1F26] flex items-center justify-center rounded-lg">
+                        <a href="#" class="aspect-square w-9 bg-dark-card flex items-center justify-center rounded-lg">
                             <img src="{{asset('storage/FooterIcon1.svg')}}" alt="">
                         </a>
-                         <a href="#" class="aspect-square w-9 bg-[#1E1F26] flex items-center justify-center rounded-lg">
+                         <a href="#" class="aspect-square w-9 bg-dark-card flex items-center justify-center rounded-lg">
                              <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.625 9.375L10.875 6L5.625 2.625V9.375ZM1.5 12C1.0875 12 0.734375 11.8531 0.440625 11.5594C0.146875 11.2656 0 10.9125 0 10.5V1.5C0 1.0875 0.146875 0.734375 0.440625 0.440625C0.734375 0.146875 1.0875 0 1.5 0H13.5C13.9125 0 14.2656 0.146875 14.5594 0.440625C14.8531 0.734375 15 1.0875 15 1.5V10.5C15 10.9125 14.8531 11.2656 14.5594 11.5594C14.2656 11.8531 13.9125 12 13.5 12H1.5ZM1.5 10.5H13.5V1.5H1.5V10.5ZM1.5 10.5V1.5V10.5Z" fill="#CBC3D7"/>
                             </svg>
                         </a>
-                         <a href="#" class="aspect-square w-9 bg-[#1E1F26] flex items-center justify-center rounded-lg">
+                         <a href="#" class="aspect-square w-9 bg-dark-card flex items-center justify-center rounded-lg">
                              <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 12V0L14.25 6L0 12ZM1.5 9.75L10.3875 6L1.5 2.25V4.875L6 6L1.5 7.125V9.75ZM1.5 9.75V6V2.25V4.875V7.125V9.75Z" fill="#CBC3D7"/>
                             </svg>
                         </a>
-                         <a href="#" class="aspect-square w-9 bg-[#1E1F26] flex items-center justify-center rounded-lg">
+                         <a href="#" class="aspect-square w-9 bg-dark-card flex items-center justify-center rounded-lg">
                              <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.625 9.375L10.875 6L5.625 2.625V9.375ZM4.5 13.5V12H1.5C1.0875 12 0.734375 11.8531 0.440625 11.5594C0.146875 11.2656 0 10.9125 0 10.5V1.5C0 1.0875 0.146875 0.734375 0.440625 0.440625C0.734375 0.146875 1.0875 0 1.5 0H13.5C13.9125 0 14.2656 0.146875 14.5594 0.440625C14.8531 0.734375 15 1.0875 15 1.5V10.5C15 10.9125 14.8531 11.2656 14.5594 11.5594C14.2656 11.8531 13.9125 12 13.5 12H10.5V13.5H4.5ZM1.5 10.5H13.5V1.5H1.5V10.5ZM1.5 10.5V1.5V10.5Z" fill="#CBC3D7"/>
                             </svg>
                         </a>
-                         <a href="#" class="aspect-square w-9 bg-[#1E1F26] flex items-center justify-center rounded-lg">
+                         <a href="#" class="aspect-square w-9 bg-dark-card flex items-center justify-center rounded-lg">
                              <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.625 9.375L10.875 6L5.625 2.625V9.375ZM4.5 13.5V12H1.5C1.0875 12 0.734375 11.8531 0.440625 11.5594C0.146875 11.2656 0 10.9125 0 10.5V1.5C0 1.0875 0.146875 0.734375 0.440625 0.440625C0.734375 0.146875 1.0875 0 1.5 0H13.5C13.9125 0 14.2656 0.146875 14.5594 0.440625C14.8531 0.734375 15 1.0875 15 1.5V10.5C15 10.9125 14.8531 11.2656 14.5594 11.5594C14.2656 11.8531 13.9125 12 13.5 12H10.5V13.5H4.5ZM1.5 10.5H13.5V1.5H1.5V10.5ZM1.5 10.5V1.5V10.5Z" fill="#CBC3D7"/>
                             </svg>
@@ -220,7 +220,7 @@
                     <a class="hover:text-white transition-colors duration-300" href="#">
                         Правила комьюнити
                     </a>
-                    <p class="text-[#FFB95F] bg-[#1E1F26] px-1.5 py-0.5 rounded-lg">18+</p>
+                    <p class="text-[#FFB95F] bg-dark-card px-1.5 py-0.5 rounded-lg">18+</p>
                 </div>
             </div>
         </x-container>

@@ -1,5 +1,5 @@
 <div class="col-span-8 flex flex-col gap-4 justify-center">
-    <nav class="flex items-center gap-1 overflow-x-scroll rounded-xl bg-[#1E1F26] p-2 text-[#CBC3D7]">
+    <nav class="flex items-center gap-1 overflow-x-scroll rounded-xl bg-dark-card p-2 text-[#CBC3D7]">
         <a href="#" class="shrink-0 py-2 px-4 bg-[#D0BCFF] text-[#3C0091] rounded-lg  font-bold text-sm transition-colors duration-200">
             Все материалы
         </a>

@@ -11,3 +11,8 @@
 button, a {
     cursor: pointer;
 }
+
+@theme {
+    --color-dark-card: #191B22;
+    --color-light-card: #1E1F26;
+}

@@ -1,4 +1,4 @@
-<article class="flex gap-5 rounded-xl bg-[#1E1F26] p-6">
+<article class="flex gap-5 rounded-xl bg-dark-card p-6">
     <div class="relative aspect-square overflow-hidden rounded-lg">
         <img
             src="{{ asset('storage/post-card.jpg') }}"
