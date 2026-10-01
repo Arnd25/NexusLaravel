@@ -1,15 +1,7 @@
 <x-layout>
     <x-container class="flex flex-col gap-4">
         <div class="flex flex-col gap-6">
-            <div class="flex gap-1">
-                <p class="text-[#E2E2EB]">Главная</p>
-                <span class="text-[#494454]">/</span>
-                <p class="text-[#E2E2EB]">Статьи и лонгриды</p>
-                <span class="text-[#494454]">/</span>
-                <p class="text-[#E2E2EB]">Обзоры</p>
-                <span class="text-[#494454]">/</span>
-                <p class="text-[#E2E2EB]">Обзор Dragon Age: The Veilguard</p>
-            </div>
+            <x-ui.page-path/>
             <div class="flex flex-wrap items-center gap-2">
                 <div class="rounded-full bg-[#A078FF] px-2.5 py-1 text-xs uppercase font-bold flex items-center gap-1 text-[#340080]">
                     БОЛЬШОЙ ОБЗОР
@@ -38,7 +30,7 @@
         </div>
         <div class="w-full bg-[#191B22] flex justify-between px-6 py-2 rounded-lg">
             <div class="flex items-center gap-2">
-                <img src="{{ asset('storage/Алексей Соколов.png') }}" alt="" class="h-12 aspect-square rounded-full object-cover bg-white">
+                <img src="{{ asset('storage/Алексей Соколов.png') }}" alt="" class="h-12 w-12 aspect-square rounded-full object-cover">
                 <div class="flex flex-col">
                     <div class="flex items-center gap-1.5">
                         <span class="text-sm font-bold text-[#e5e5e9]">
@@ -286,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-between items-center bg-[#191B22]">
+                <div class="flex justify-between items-center p-3 rounded-lg bg-[#191B22]">
                     <p class="text-[#E2E2EB]">Ваша оценка статьи:</p>
                     <div class="flex gap-3 items-center">
                         <p class="bg-[#1E1F26] text-[#D0BCFF] px-4 rounded-lg py-1">421</p>

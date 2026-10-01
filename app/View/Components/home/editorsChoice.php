@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class editors-choice extends Component
+class editorsChoice extends Component
 {
     /**
      * Create a new component instance.
