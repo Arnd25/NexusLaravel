@@ -7,53 +7,53 @@
                 </svg>
                 Релизы месяца</p>
         </div>
-        <p class="uppercase text-[#4CD7F6] font-semibold">ФЕВРАЛЬ - МАРТ</p>
+        <p class="uppercase text-cyan font-semibold">ФЕВРАЛЬ - МАРТ</p>
     </div>
     <div class="flex flex-col gap-3">
-        <div class="flex bg-[#191B22] justify-between p-4">
-            <div class="bg-[#33343B] items-center justify-center flex flex-col p-2 rounded-lg">
-                <p class="uppercase text-[#D0BCFF] font-bold text-lg">Фев</p>
+        <div class="flex bg-dark-card justify-between p-4">
+            <div class="bg-dark-muted items-center justify-center flex flex-col p-2 rounded-lg">
+                <p class="uppercase text-purple font-bold text-lg">Фев</p>
                 <p class="font-extrabold text-xl">28</p>
             </div>
             <div class="flex flex-col">
                 <p class="text-white font-bold">Monster Hunter Wilds</p>
-                <p class="text-[#CBC3D7]">Capcom • Экшен-RPG</p>
+                <p class="text-main">Capcom • Экшен-RPG</p>
                 <div class="flex gap-1">
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <p class="bg-[#4CD7F61A]/20 text-[#4CD7F6] rounded-lg p-1.5">12 дн.</p>
+                <p class="bg-[#4CD7F61A]/20 text-cyan rounded-lg p-1.5">12 дн.</p>
             </div>
         </div>
-        <div class="flex bg-[#191B22] justify-between p-4">
-            <div class="bg-[#33343B] items-center justify-center flex flex-col p-2 rounded-lg">
-                <p class="uppercase text-[#D0BCFF] font-bold text-lg">Фев</p>
+        <div class="flex bg-dark-card justify-between p-4">
+            <div class="bg-dark-muted items-center justify-center flex flex-col p-2 rounded-lg">
+                <p class="uppercase text-purple font-bold text-lg">Фев</p>
                 <p class="font-extrabold text-xl">28</p>
             </div>
             <div class="flex flex-col">
                 <p class="text-white font-bold">Monster Hunter Wilds</p>
-                <p class="text-[#CBC3D7]">Capcom • Экшен-RPG</p>
+                <p class="text-main">Capcom • Экшен-RPG</p>
                 <div class="flex gap-1">
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
-                    <p class="bg-[#33343B] text-[#4CD7F6] px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
+                    <p class="bg-dark-muted text-cyan px-2 rounded-lg">PC</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <p class="bg-[#4CD7F61A]/20 text-[#4CD7F6] rounded-lg p-1.5">12 дн.</p>
+                <p class="bg-[#4CD7F61A]/20 text-cyan rounded-lg p-1.5">12 дн.</p>
             </div>
         </div>
-        <div class="flex bg-[#191B22] justify-between p-4">
-            <div class="bg-[#33343B] items-center justify-center flex flex-col p-2 rounded-lg">
-                <p class="uppercase text-[#D0BCFF] font-bold text-lg">Фев</p>
+        <div class="flex bg-dark-card justify-between p-4">
+            <div class="bg-dark-muted items-center justify-center flex flex-col p-2 rounded-lg">
+                <p class="uppercase text-purple font-bold text-lg">Фев</p>
                 <p class="font-extrabold text-xl">28</p>
             </div>
             <div class="flex flex-col">
                 <p class="text-white font-bold">Monster Hunter Wilds</p>
-                <p class="text-[#CBC3D7]">Capcom • Экшен-RPG</p>
+                <p class="text-main">Capcom • Экшен-RPG</p>
                 <div class="flex gap-1">
                     <x-ui.platform-badge type="pc"/>
                     <x-ui.platform-badge type="pc"/>
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="flex items-center">
-                <p class="bg-[#4CD7F61A]/20 text-[#4CD7F6] rounded-lg p-1.5">12 дн.</p>
+                <p class="bg-[#4CD7F61A]/20 text-cyan rounded-lg p-1.5">12 дн.</p>
             </div>
         </div>
     </div>

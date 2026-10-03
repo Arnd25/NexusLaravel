@@ -6,7 +6,7 @@
             class="h-full w-full object-cover"
         >
 
-        <div class="absolute left-3 top-3 rounded-lg bg-[#03B5D3] px-3 py-1.5 text-lg font-extrabold items-center text-[#00424E]">
+        <div class="absolute left-3 top-3 rounded-lg bg-cyan px-3 py-1.5 text-lg font-extrabold items-center text-cyan-deep">
             8.5
             отлично
         </div>
@@ -18,48 +18,48 @@
                 <x-ui.platform-badge type="pc"/>
                 <x-ui.platform-badge type="pc"/>
 
-                <span class="text-xs aspect-square w-1.5 rounded-full bg-[#494454]"></span>
+                <span class="text-xs aspect-square w-1.5 rounded-full bg-pointer"></span>
 
-                <p class="text-lg text-[#958EA0]">
+                <p class="text-lg text-muted">
                     Рецензия
                 </p>
 
             </div>
-            <h3 class="font-serif text-3xl font-bold text-[#E2E2EB]">
+            <h3 class="font-serif text-3xl font-bold text-secondary">
                 Обзор Dragon Age: The
                 Veilguard — Красочное фэнтези,
                 застрявшее между эпохами
             </h3>
-            <p class="text-lg text-[#CBC3D7]">
+            <p class="text-lg text-main">
                 Великолепный визуальный стиль, драйвовая
                 динамическая боевка и яркие локации
                 сталкиваются с безопасными диалогами и…
             </p>
             <div class="flex flex-wrap gap-2">
-                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-[#4CD7F6]">
+                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-cyan">
                     Бодрая боевка
                 </span>
-                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-[#4CD7F6]">
+                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-cyan">
                     Бодрая боевка
                 </span>
-                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-[#4CD7F6]">
+                <span class="rounded-md bg-[#282A30] px-2 py-1 text-lg text-cyan">
                     Бодрая боевка
                 </span>
             </div>
         </div>
         <div class="flex items-center justify-between mt-10">
             <div class="">
-                <span class="text-[#E2E2EB] text-lg">
+                <span class="text-secondary text-lg">
                     Артем Зайцев
                 </span>
 
-                <span class="text-[#958EA0] text-lg">
+                <span class="text-muted text-lg">
                      •
                     Вчера, 18:40
                 </span>
             </div>
             <div class="flex gap-2 items-center">
-                <button class="flex gap-1 items-center text-[#CBC3D7]">
+                <button class="flex gap-1 items-center text-main">
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15 15L12 12H1.5C1.0875 12 0.734375 11.8531 0.440625 11.5594C0.146875 11.2656 0 10.9125 0 10.5V1.5C0 1.0875 0.146875 0.734375 0.440625 0.440625C0.734375 0.146875 1.0875 0 1.5 0H13.5C13.9125 0 14.2656 0.146875 14.5594 0.440625C14.8531 0.734375 15 1.0875 15 1.5V15ZM1.5 10.5H12.6375L13.5 11.3438V1.5H1.5V10.5ZM1.5 10.5V1.5V10.5Z" fill="#CBC3D7"/>
                     </svg>
@@ -72,9 +72,6 @@
                     </svg>
                 </button>
             </div>
-
-
-
 
         </div>
     </div>

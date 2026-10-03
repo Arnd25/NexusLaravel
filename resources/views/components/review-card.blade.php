@@ -1,15 +1,15 @@
 <div class="relative flex flex-col bg-dark-card rounded-lg overflow-hidden">
     <img src="{{asset('storage/review/reviewImage1.jpg')}}" alt="">
-    <div class="absolute top-2 right-2 bg-[#FFB95F] text-[#472A00] font-bold text-sm px-2 rounded-sm">9.2</div>
+    <div class="absolute top-2 right-2 bg-orange text-orange-deep font-bold text-sm px-2 rounded-sm">9.2</div>
     <div class="p-4 flex flex-col gap-3">
-        <p class="font-bold text-[#4CD7F6] uppercase text-sm">DLC / ДОПОЛНЕНИЕ</p>
-        <p class="text-[#E2E2EB] ">
+        <p class="font-bold text-cyan uppercase text-sm">DLC / ДОПОЛНЕНИЕ</p>
+        <p class="text-secondary ">
             <span class="font-bold">
                 Cyberpunk 2077: Phantom Liberty
             </span>
             — Шпионский триллер высшей…
         </p>
-        <div class="flex justify-between items-center font-semibold text-sm text-[#CBC3D7]">
+        <div class="flex justify-between items-center font-semibold text-sm text-main">
             <p>24 фев 2025</p>
             <div class="flex items-center gap-1">
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">

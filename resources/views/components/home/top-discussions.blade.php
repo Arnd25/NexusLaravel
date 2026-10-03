@@ -7,17 +7,17 @@
                 </svg>
                 Топ обсуждений</p>
         </div>
-        <p class=" text-[#958EA0] font-semibold">За 24 часа</p>
+        <p class=" text-muted font-semibold">За 24 часа</p>
     </div>
     <div class="flex flex-col gap-3">
         <div class="flex gap-2 p-4 items-center">
-            <p class="text-[#494454] font-extrabold text-3xl">1</p>
+            <p class="text-pointer font-extrabold text-3xl">1</p>
             <div class="flex flex-col gap-1">
                 <p class="font-semibold">
                     Слух: Sony готовит новую
                     портативную PlayStation с поддержкой
                 </p>
-                <p class="text-[#FFB4AB] font-bold flex items-center gap-1">
+                <p class="text-red font-bold flex items-center gap-1">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.6667 11.6667L9.33333 9.33333H1.16667C0.845833 9.33333 0.571181 9.2191 0.342708 8.99063C0.114236 8.76215 0 8.4875 0 8.16667V1.16667C0 0.845833 0.114236 0.571181 0.342708 0.342708C0.571181 0.114236 0.845833 0 1.16667 0H10.5C10.8208 0 11.0955 0.114236 11.324 0.342708C11.5524 0.571181 11.6667 0.845833 11.6667 1.16667V11.6667ZM1.16667 8.16667H9.82917L10.5 8.82292V1.16667H1.16667V8.16667ZM1.16667 8.16667V1.16667V8.16667Z" fill="#FFB4AB"/>
                     </svg>
@@ -26,13 +26,13 @@
             </div>
         </div>
         <div class="flex gap-2 p-4 items-center">
-            <p class="text-[#494454] font-extrabold text-3xl">1</p>
+            <p class="text-pointer font-extrabold text-3xl">1</p>
             <div class="flex flex-col gap-1">
                 <p class="font-semibold">
                     Слух: Sony готовит новую
                     портативную PlayStation с поддержкой
                 </p>
-                <p class="text-[#FFB4AB] font-bold flex items-center gap-1">
+                <p class="text-red font-bold flex items-center gap-1">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.6667 11.6667L9.33333 9.33333H1.16667C0.845833 9.33333 0.571181 9.2191 0.342708 8.99063C0.114236 8.76215 0 8.4875 0 8.16667V1.16667C0 0.845833 0.114236 0.571181 0.342708 0.342708C0.571181 0.114236 0.845833 0 1.16667 0H10.5C10.8208 0 11.0955 0.114236 11.324 0.342708C11.5524 0.571181 11.6667 0.845833 11.6667 1.16667V11.6667ZM1.16667 8.16667H9.82917L10.5 8.82292V1.16667H1.16667V8.16667ZM1.16667 8.16667V1.16667V8.16667Z" fill="#FFB4AB"/>
                     </svg>
@@ -41,13 +41,13 @@
             </div>
         </div>
         <div class="flex gap-2 p-4 items-center">
-            <p class="text-[#494454] font-extrabold text-3xl">1</p>
+            <p class="text-pointer font-extrabold text-3xl">1</p>
             <div class="flex flex-col gap-1">
                 <p class="font-semibold">
                     Слух: Sony готовит новую
                     портативную PlayStation с поддержкой
                 </p>
-                <p class="text-[#FFB4AB] font-bold flex items-center gap-1">
+                <p class="text-red font-bold flex items-center gap-1">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.6667 11.6667L9.33333 9.33333H1.16667C0.845833 9.33333 0.571181 9.2191 0.342708 8.99063C0.114236 8.76215 0 8.4875 0 8.16667V1.16667C0 0.845833 0.114236 0.571181 0.342708 0.342708C0.571181 0.114236 0.845833 0 1.16667 0H10.5C10.8208 0 11.0955 0.114236 11.324 0.342708C11.5524 0.571181 11.6667 0.845833 11.6667 1.16667V11.6667ZM1.16667 8.16667H9.82917L10.5 8.82292V1.16667H1.16667V8.16667ZM1.16667 8.16667V1.16667V8.16667Z" fill="#FFB4AB"/>
                     </svg>

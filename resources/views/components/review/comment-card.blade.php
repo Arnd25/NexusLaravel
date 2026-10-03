@@ -1,15 +1,15 @@
 <div class="bg-light-card p-6 rounded-lg flex flex-col gap-2">
     <div class="flex items-center gap-2">
         <img src="{{asset('storage/users/avatarImage.jpg')}}" class="h-8 aspect-square rounded-full" alt="">
-        <p class="text-lg font-bold text-[#E2E2EB]">Алексей Соколов</p>
-        <p class="bg-[#A078FF] px-1  text-[#340080] font-bold rounded-sm">Автор</p>
-        <p class="text-[#958EA0] font-semibold text-sm">4 часа назад</p>
+        <p class="text-lg font-bold text-secondary">Алексей Соколов</p>
+        <p class="bg-purple-bright px-1  text-purple-deep font-bold rounded-sm">Автор</p>
+        <p class="text-muted font-semibold text-sm">4 часа назад</p>
     </div>
-    <p class="text-[#E2E2EB]">Коллеги, небольшое уточнение по поводу выборов из прошлых частей: решения переносятся через встроенный
+    <p class="text-secondary">Коллеги, небольшое уточнение по поводу выборов из прошлых частей: решения переносятся через встроенный
         конструктор историй в меню персонажа (сохранения Dragon Age Keep не используются напрямую). Внимательно
         настраивайте инквизитора при создании героя!</p>
     <div class="flex items-center gap-4">
-        <button class="text-[#4CD7F6] font-semibold">Ответить</button>
+        <button class="text-cyan font-semibold">Ответить</button>
         <div class="flex items-center gap-1">
             <button>
                 <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">

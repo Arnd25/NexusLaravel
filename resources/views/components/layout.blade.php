@@ -8,8 +8,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Document</title>
 </head>
-<body class="bg-[#0C0E14] text-white min-h-screen flex flex-col gap-10">
-    <header class="text-[#CBC3D7]">
+<body class="bg-darkBg text-white min-h-screen flex flex-col gap-10">
+    <header class="text-main">
         <div class="flex shadow-[0_1px_8px_rgba(0,0,0,0.4)] flex-col">
             <x-container class="flex justify-between items-center py-2 font-semibold">
                 <div class="flex items-center gap-3 ">
@@ -19,13 +19,13 @@
                     </div>
                     <div class="flex gap-2 items-center ">
                         <p>GTA VI</p>
-                        <span class="h-1.5 aspect-square rounded-full bg-[#494454]"></span>
+                        <span class="h-1.5 aspect-square rounded-full bg-pointer"></span>
                         <p>Cyberpunk Orion</p>
-                        <span class="h-1.5 aspect-square rounded-full bg-[#494454]"></span>
+                        <span class="h-1.5 aspect-square rounded-full bg-pointer"></span>
                         <p>RTX 5090</p>
-                        <span class="h-1.5 aspect-square rounded-full bg-[#494454]"></span>
+                        <span class="h-1.5 aspect-square rounded-full bg-pointer"></span>
                         <p>The Witcher 4</p>
-                        <span class="h-1.5 aspect-square rounded-full bg-[#494454]"></span>
+                        <span class="h-1.5 aspect-square rounded-full bg-pointer"></span>
                         <p>Steam Spring Sale</p>
                     </div>
 
@@ -38,7 +38,7 @@
 
                         <p>Серверы: Online</p>
                     </div>
-                    <div class=" w-0.5 h-6 bg-[#494454]"></div>
+                    <div class=" w-0.5 h-6 bg-pointer"></div>
                     <p>v4.8 Cyber Core</p>
 
                 </div>
@@ -46,12 +46,12 @@
 
             </x-container>
         </div>
-        <div class="bg-[#151820] shadow-[0_4px_24px_rgba(0,0,0,0.6)] py-3">
+        <div class="bg-header shadow-[0_4px_24px_rgba(0,0,0,0.6)] py-3">
             <x-container class=" flex gap-3 items-center">
                 <x-ui.logo/>
                 <nav>
                     <ul class="flex gap-2 items-center bg-dark-card p-1 rounded-lg">
-                        <li class="px-4 py-1 text-[#340080] bg-[#A078FF] rounded-lg">
+                        <li class="px-4 py-1 text-purple-deep bg-purple-bright rounded-lg">
                             <a class="font-semibold text-lg transition-colors duration-200 hover:text-white" href="/">Главная</a>
                         </li>
                         <li class="px-4 rounded-lg">
@@ -71,23 +71,23 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="flex items-center rounded-2xl bg-[#0C0E14] p-1">
-                    <a href="#" class="rounded-full bg-[#4CD7F61A]/40 px-3 p-0.5 font-bold text-[#4CD7F6]">
+                <div class="flex items-center rounded-2xl bg-darkBg p-1">
+                    <a href="#" class="rounded-full bg-[#4CD7F61A]/40 px-3 p-0.5 font-bold text-cyan">
                         PC
                     </a>
-                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-[#D0BCFF] transition-colors duration-200 hover:text-white">
+                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-purple transition-colors duration-200 hover:text-white">
                         PS5
                     </a>
 
-                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-[#FFB95F] transition-colors duration-200 hover:text-white">
+                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-orange transition-colors duration-200 hover:text-white">
                         XBOX
                     </a>
 
-                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-[#FFB4AB] transition-colors duration-200 hover:text-white">
+                    <a href="#" class="rounded-full px-3 p-0.5 font-bold text-red transition-colors duration-200 hover:text-white">
                         SWITCH
                     </a>
                 </div>
-                <div class=" flex items-center rounded-lg w-full px-3 bg-[#0C0E14]">
+                <div class=" flex items-center rounded-lg w-full px-3 bg-darkBg">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.45 13.5L7.725 8.775C7.35 9.075 6.91875 9.3125 6.43125 9.4875C5.94375 9.6625 5.425 9.75 4.875 9.75C3.5125 9.75 2.35938 9.27813 1.41562 8.33438C0.471875 7.39063 0 6.2375 0 4.875C0 3.5125 0.471875 2.35938 1.41562 1.41562C2.35938 0.471875 3.5125 0 4.875 0C6.2375 0 7.39063 0.471875 8.33438 1.41562C9.27813 2.35938 9.75 3.5125 9.75 4.875C9.75 5.425 9.6625 5.94375 9.4875 6.43125C9.3125 6.91875 9.075 7.35 8.775 7.725L13.5 12.45L12.45 13.5ZM4.875 8.25C5.8125 8.25 6.60938 7.92188 7.26562 7.26562C7.92188 6.60938 8.25 5.8125 8.25 4.875C8.25 3.9375 7.92188 3.14062 7.26562 2.48438C6.60938 1.82812 5.8125 1.5 4.875 1.5C3.9375 1.5 3.14062 1.82812 2.48438 2.48438C1.82812 3.14062 1.5 3.9375 1.5 4.875C1.5 5.8125 1.82812 6.60938 2.48438 7.26562C3.14062 7.92188 3.9375 8.25 4.875 8.25Z" fill="#958EA0"/>
                     </svg>
@@ -95,7 +95,7 @@
                     <input
                         type="text"
                         placeholder="Поиск игр, новостей, обзоров..."
-                        class="w-full bg-transparent  p-2 text-white outline-none placeholder:text-[#958EA0]"
+                        class="w-full bg-transparent  p-2 text-white outline-none placeholder:text-muted"
                     >
 
                 </div>
@@ -112,7 +112,7 @@
         {{$slot}}
     </main>
     <footer class="mt-auto  w-full shadow-[0_-8px_32px_rgba(0,0,0,0.8)] py-10">
-        <x-container class="flex flex-col gap-4 text-[#CBC3D7]">
+        <x-container class="flex flex-col gap-4 text-main">
             <div class="grid grid-cols-5 gap-10">
                 <div class="flex flex-col gap-2 col-span-2">
                     <x-ui.logo/>
@@ -220,7 +220,7 @@
                     <a class="hover:text-white transition-colors duration-300" href="#">
                         Правила комьюнити
                     </a>
-                    <p class="text-[#FFB95F] bg-dark-card px-1.5 py-0.5 rounded-lg">18+</p>
+                    <p class="text-orange bg-dark-card px-1.5 py-0.5 rounded-lg">18+</p>
                 </div>
             </div>
         </x-container>

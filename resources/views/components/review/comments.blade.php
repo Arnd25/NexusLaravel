@@ -5,8 +5,8 @@
             <p class="text-[#340080] px-2 py-0.5 rounded-lg bg-[#A078FF] font-semibold text-xs">264</p>
         </div>
         <div class="flex gap-1 items-center font-semibold">
-            <p class="text-[#CBC3D7]">Сортировка:</p>
-            <p class="text-[#D0BCFF] flex items-center gap-1">
+            <p class="text-main">Сортировка:</p>
+            <p class="text-purple flex items-center gap-1">
                 По популярности
                 <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 3.7L0 0.7L0.7 0L3 2.3L5.3 0L6 0.7L3 3.7Z" fill="#D0BCFF"/>
@@ -34,7 +34,7 @@
                     </svg>
 
                 </div>
-                <button class="bg-[#A078FF] py-1 px-6 text-[#340080] font-bold rounded-2xl">Отправить</button>
+                <button class="bg-purple-bright py-1 px-6 text-purple-deep font-bold rounded-2xl">Отправить</button>
             </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
 <div class="flex gap-1">
-    <p class="text-[#E2E2EB]">Главная</p>
-    <span class="text-[#494454]">/</span>
-    <p class="text-[#E2E2EB]">Статьи и лонгриды</p>
-    <span class="text-[#494454]">/</span>
-    <p class="text-[#E2E2EB]">Обзоры</p>
-    <span class="text-[#494454]">/</span>
-    <p class="text-[#E2E2EB]">Обзор Dragon Age: The Veilguard</p>
+    <p class="text-secondary">Главная</p>
+    <span class="text-pointer">/</span>
+    <p class="text-secondary">Статьи и лонгриды</p>
+    <span class="text-pointer">/</span>
+    <p class="text-secondary">Обзоры</p>
+    <span class="text-pointer">/</span>
+    <p class="text-secondary">Обзор Dragon Age: The Veilguard</p>
 </div>

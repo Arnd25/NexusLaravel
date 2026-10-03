@@ -2,11 +2,11 @@
 
 @php
     $classes = match (strtolower($type)) {
-        'pc' => 'bg-[#4CD7F626]/25 text-[#4CD7F6]',
-        'ps5' => 'bg-[#4CD7F626]/25 text-[#B7A6FF]',
-        'xbox' => 'bg-[#4CD7F626]/25 text-[#7ED957]',
-        'switch' => 'bg-[#4CD7F626]/25 text-[#DF8F8A]',
-        default => 'bg-[#282A30] text-[#CBC3D7]',
+        'pc' => 'bg-cyan text-cyan',
+        'ps5' => 'bg-cyan text-[#B7A6FF]',
+        'xbox' => 'bg-cyan text-[#7ED957]',
+        'switch' => 'bg-cyan text-[#DF8F8A]',
+        default => 'bg-[#282A30] text-main',
     };
 @endphp
 

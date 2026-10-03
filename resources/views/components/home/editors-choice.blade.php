@@ -8,56 +8,56 @@
                 Выбор редакции
             </p>
         </div>
-        <p class=" text-[#FFB95F] font-bold">Hall of flame</p>
+        <p class=" text-orange font-bold">Hall of flame</p>
     </div>
     <div class="flex flex-col gap-3">
         <div class="flex gap-3 p-4 items-center justify-between">
-            <p class="text-[#4CD7F6] font-extrabold text-3xl">01</p>
+            <p class="text-cyan font-extrabold text-3xl">01</p>
             <div class="flex flex-col gap-1">
                 <p class="font-bold">
                     Clair Obscur: Expedition 33
                 </p>
-                <p class="text-[#958EA0] flex items-center gap-1">
+                <p class="text-muted flex items-center gap-1">
                     Самая ожидаемая RPG
                 </p>
             </div>
-            <p class="px-2 py-0.5 rounded-lg text-[#472A00] font-bold text-xl bg-[#FFB95F]">9.8</p>
+            <p class="px-2 py-0.5 rounded-lg text-orange-deep font-bold text-xl bg-orange">9.8</p>
         </div>
         <div class="flex gap-3 p-4 items-center justify-between">
-            <p class="text-[#4CD7F6] font-extrabold text-3xl">01</p>
+            <p class="text-cyan font-extrabold text-3xl">01</p>
             <div class="flex flex-col gap-1">
                 <p class="font-bold">
                     Clair Obscur: Expedition 33
                 </p>
-                <p class="text-[#958EA0] flex items-center gap-1">
+                <p class="text-muted flex items-center gap-1">
                     Самая ожидаемая RPG
                 </p>
             </div>
-            <p class="px-2 py-0.5 rounded-lg text-[#472A00] font-bold text-xl bg-[#FFB95F]">9.8</p>
+            <p class="px-2 py-0.5 rounded-lg text-orange-deep font-bold text-xl bg-orange">9.8</p>
         </div>
         <div class="flex gap-3 p-4 items-center justify-between">
-            <p class="text-[#4CD7F6] font-extrabold text-3xl">01</p>
+            <p class="text-cyan font-extrabold text-3xl">01</p>
             <div class="flex flex-col gap-1">
                 <p class="font-bold">
                     Clair Obscur: Expedition 33
                 </p>
-                <p class="text-[#958EA0] flex items-center gap-1">
+                <p class="text-muted flex items-center gap-1">
                     Самая ожидаемая RPG
                 </p>
             </div>
-            <p class="px-2 py-0.5 rounded-lg text-[#472A00] font-bold text-xl bg-[#FFB95F]">9.8</p>
+            <p class="px-2 py-0.5 rounded-lg text-orange-deep font-bold text-xl bg-orange">9.8</p>
         </div>
         <div class="flex gap-3 p-4 items-center justify-between">
-            <p class="text-[#4CD7F6] font-extrabold text-3xl">01</p>
+            <p class="text-cyan font-extrabold text-3xl">01</p>
             <div class="flex flex-col gap-1">
                 <p class="font-bold">
                     Clair Obscur: Expedition 33
                 </p>
-                <p class="text-[#958EA0] flex items-center gap-1">
+                <p class="text-muted flex items-center gap-1">
                     Самая ожидаемая RPG
                 </p>
             </div>
-            <p class="px-2 py-0.5 rounded-lg text-[#472A00] font-bold text-xl bg-[#FFB95F]">9.8</p>
+            <p class="px-2 py-0.5 rounded-lg text-orange-deep font-bold text-xl bg-orange">9.8</p>
         </div>
     </div>
 </div>

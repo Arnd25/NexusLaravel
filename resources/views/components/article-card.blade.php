@@ -1,24 +1,24 @@
 <div class="flex relative flex-col rounded-lg overflow-hidden bg-dark-card">
-    <p class="absolute top-3 left-3 text-[#4CD7F6] bg-[#0C0E14E5] rounded-lg px-2 py-1 font-bold">
+    <p class="absolute top-3 left-3 text-cyan bg-[#0C0E14E5] rounded-lg px-2 py-1 font-bold">
         ЖЕЛЕЗО • ТЕСТ-ДРАЙВ
     </p>
-    <p class="absolute top-3 right-3 text-[#003640] bg-[#4CD7F6] rounded-lg px-2 py-1 text-2xl font-extrabold">
+    <p class="absolute top-3 right-3 text-cyan-deep z-2 bg-cyan rounded-lg px-2 py-1 text-2xl font-extrabold">
         8.3
     </p>
     <div class="relative">
         <img src="{{asset('storage/article-card.jpg')}}" alt="">
-        <div class="absolute inset-0 bg-linear-to-t from-[#1E1F26] via-transparent to-[#000000]/30"></div>
+        <div class="absolute inset-0 bg-linear-to-t from-light-card via-transparent to-black/30"></div>
     </div>
     <div class="flex flex-col p-4">
         <h3 class="font-serif text-xl font-bold">Тест NVIDIA GeForce RTX 5080 в 4K:
             Революция трассировки или
             маркетинговый трюк?
         </h3>
-        <p class="text-[#CBC3D7] text-sm">
+        <p class="text-main text-sm">
             Замерили фреймрейт в 14 хитах, протестировали
             DLSS 4 с генерацией кадров на ультрах и…
         </p>
-        <div class="flex justify-between items-center text-[#CBC3D7] font-semibold">
+        <div class="flex justify-between items-center text-main font-semibold">
             <p>Максим Ильин</p>
             <div class="flex gap-1 items-center">
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

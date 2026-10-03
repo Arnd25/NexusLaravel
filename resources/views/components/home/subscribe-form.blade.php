@@ -1,4 +1,4 @@
-<div class="flex flex-col bg- p-6 bg-linear-to-r from-[#282A30] overflow-hidden to-[#1E1F26] relative rounded-xl gap-2">
+<div class="flex flex-col bg- p-6 bg-linear-to-r from-[#282A30] overflow-hidden to-light-card relative rounded-xl gap-2">
     <div class="absolute aspect-square w-36 bg-[#D0BCFF33] blur-2xl right-0 bottom-0 z-999"></div>
     <div class="bg-[#D0BCFF33]/40 p-3 w-fit rounded-lg">
         <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -6,13 +6,13 @@
         </svg>
     </div>
     <p class="font-serif font-bold text-xl">Еженедельный дайджест NEXUS</p>
-    <p class="text-[#CBC3D7]">Только избранные расследования, инсайды и
+    <p class="text-main">Только избранные расследования, инсайды и
         ключевые игровые релизы без спама. Прямо
         на вашу почту каждую пятницу.
     </p>
     <form class="flex flex-col gap-2">
-        <input class="bg-[#0C0E14] rounded-lg p-2" placeholder="Ваш рабочий email..." >
-        <button class="bg-[#D0BCFF] font-bold text-[#3C0091] rounded-lg py-2.5">Подписаться бесплатно</button>
+        <input class="bg-darkBg rounded-lg p-2" placeholder="Ваш рабочий email..." >
+        <button class="bg-purple font-bold text-purple-dark rounded-lg py-2.5">Подписаться бесплатно</button>
     </form>
-    <p class="text-center text-[#958EA0]">Более 42 000 геймеров уже с нами</p>
+    <p class="text-center text-muted">Более 42 000 геймеров уже с нами</p>
 </div>
