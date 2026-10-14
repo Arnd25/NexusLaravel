@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,17 +8,16 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>{{ $title }}</title>
 </head>
-<body class="bg-darkBg text-white flex overflow-x-hidden gap-10">
-    <div class="min-h-screen flex">
-        <aside class="bg-gray-800 p-5 h-screen fixed text-lg  max-w-sm">
+<body class="text-white bg-zinc-900 flex max-w-full overflow-x-hidden">
+    <div class="min-h-screen w-full flex">
+        <aside class="bg-gray-800 p-5 h-screen text-lg max-w-sm w-full">
             <x-admin.navigation/>
         </aside>
-        <main class="flex-1">
+        <main class="flex-1 py-5">
             <x-admin.container>
-                {{$slot}}
+                {{ $slot }}
             </x-admin.container>
         </main>
     </div>
-
 </body>
 </html>
