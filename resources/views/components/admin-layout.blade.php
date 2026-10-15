@@ -8,7 +8,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>{{ $title }}</title>
 </head>
-<body class="text-white bg-zinc-900 flex max-w-full overflow-x-hidden">
+<body class="text-white bg-gray-200 flex max-w-full overflow-x-hidden">
     <div class="min-h-screen w-full flex">
         <aside class="bg-gray-800 p-5 h-screen text-lg max-w-sm w-full">
             <x-admin.navigation/>

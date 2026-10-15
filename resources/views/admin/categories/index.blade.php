@@ -1,14 +1,10 @@
 <x-admin-layout title="Категории">
-    <div class="flex items-center justify-between mb-2">
-        <div class="">
-            <h2 class="text-xl font-bold text-gray-200">Все категории</h2>
-            <p class="text-sm text-gray-500 mt-0.5">Управление категориями услуг</p>
-        </div>
-        <a class="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2.5"
-            href="{{route('admin.categories.create')}}">
-            Добавить категорию
-        </a>
-    </div>
+    <x-admin.head
+        title="Управление категориями"
+        subtitle="управлениями категориими для услуг"
+        href="{{route('admin.categories.create')}}"
+        link="Создать категорию"
+    />
     <div class="bg-white rounded-lg border border-state-200 shadow-sm overflow-hidden">
         <table class="w-full text-left text-sm text-slate-600 border-collapse">
             <thead class="bg-slate-50  border-b border-slate-200 text-sm font-semibold">
@@ -41,7 +37,16 @@
                         <td class="px-6 py-4 text-shadow-slate-400 text-xs font-semibold">
                             {{$category->created_at->format('d.m.Y')}}
                         </td>
-                        <td class="px-6 py-4 text-shadow-slate-400 text-xs">{{$category->id}}</td>
+                        <td class="px-6 py-4 text-shadow-slate-400 text-xs flex gap-2">
+                            <a
+                                class="text-slate-500 hover:text-slate-700 text-xs font-semibold"
+                                href="{{route('admin.categories.show', $category)}}">Подробнее
+                            </a>
+                            <a
+                                class="text-indigo-600 hover:text-indigo-800 text-xs font-semibold"
+                                href="{{route('admin.categories.edit', $category)}}">Обновить
+                            </a>
+                        </td>
 
                     </tr>
 

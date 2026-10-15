@@ -10,7 +10,7 @@ Route::get('/review', function () {
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {
-    Route::resource('services', \App\Http\Controllers\Admin\ServiceController::class)->only('index','create','store');
+    Route::resource('services', \App\Http\Controllers\Admin\ServiceController::class);
     Route::resource('categories', \App\Http\Controllers\Admin\CategoryController::class);
     Route::get('/', function () { return view('admin.dashboard'); })->name('dashboard');
 });

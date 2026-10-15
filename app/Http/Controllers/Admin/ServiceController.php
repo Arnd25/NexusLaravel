@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\DTOs\ServiceDTO;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\ServiceStoreRequest;
+use App\Http\Requests\Admin\ServiceUpdateRequest;
 use App\Models\Category;
 use App\Models\Service;
 use Illuminate\Http\Request;
@@ -45,7 +46,8 @@ class ServiceController extends Controller
      */
     public function show(Service $service)
     {
-        //
+        $service->load('category');
+        return view('admin.services.show', compact('service'));
     }
 
     /**
@@ -53,15 +55,18 @@ class ServiceController extends Controller
      */
     public function edit(Service $service)
     {
-        //
+        $categories = Category::all();
+        return view('admin.services.edit', compact('service', 'categories'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(ServiceStoreRequest $request, Service $service)
+    public function update(ServiceUpdateRequest $request, Service $service)
     {
-        //
+        $dto = ServiceDTO::fromRequest($request);
+        $service->update($dto->toArray());
+        return redirect()->route('admin.services.index')->with('success','Услуга успешно измененна');
     }
 
     /**

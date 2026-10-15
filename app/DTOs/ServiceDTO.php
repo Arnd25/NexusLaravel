@@ -3,6 +3,7 @@
 namespace App\DTOs;
 
 use App\Http\Requests\Admin\ServiceStoreRequest;
+use App\Http\Requests\Admin\ServiceUpdateRequest;
 
 readonly class ServiceDTO
 {
@@ -13,11 +14,10 @@ readonly class ServiceDTO
         public array $tags,
         public array $images,
         public bool $is_active
-    )
-    {}
+    ){}
 
 
-    public static function fromRequest(ServiceStoreRequest $request)
+    public static function fromRequest(ServiceStoreRequest|ServiceUpdateRequest $request)
     {
         $images = [];
         if ($request->hasFile('images')) {
@@ -30,8 +30,7 @@ readonly class ServiceDTO
                 array_map('trim', explode(',', $request->validated('tags')))
                 )
             )
-            : []
-        ;
+            : [];
         return new self(
             title: $request->validated('title'),
             description: $request->validated('description'),

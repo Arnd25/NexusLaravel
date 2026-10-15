@@ -1,15 +1,14 @@
 @props(['name','label'=> null])
 
-<div class="">
+<div class="mt-5">
     @if($label)
         <label for="{{$name}}" class="block text-sm font-semibold text-slate-700 mb-2">{{$label}}</label>
     @endif
     <select
-        class=""
         name="{{$name}}"
         id="{{$name}}"
         {{$attributes->merge([
-            'class'=> 'w-full rounded-lg border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800'
+            'class'=>'w-full rounded-lg border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800',
             ])
         }}
     >

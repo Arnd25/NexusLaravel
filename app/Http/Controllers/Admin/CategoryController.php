@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\DTOs\CategoryDTO;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\CategoryStoreRequest;
+use App\Http\Requests\Admin\CategoryUpdateRequest;
 use App\Models\Category;
 use Illuminate\Http\Request;
 
@@ -40,25 +41,28 @@ class CategoryController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Category $category)
     {
-        //
+        $category->load('services');
+        return view('admin.categories.show', compact('category'));
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Category $category)
     {
-        //
+        return view('admin.categories.edit', compact('category'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(CategoryUpdateRequest $request, Category $category)
     {
-        //
+        $dto = CategoryDTO::fromRequest($request);
+        $category->update($dto->toArray());
+        return redirect()->route('admin.categories.index')->with('success', 'Категория успешно обновлена');
     }
 
     /**
